@@ -14,9 +14,9 @@ def main():
     
     print("============ BOOKBOT ============")
     print(f"Analyzing book found at {book_path}...")
-    print("--------- Character Count -------")
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
+    print("--------- Character Count -------")
     for char_dict in sorted_chars:
         char = char_dict["char"]
         count = char_dict["num"]
